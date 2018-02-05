@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Moes.Core;
 using UIKit;
 
 namespace Moes.iOS

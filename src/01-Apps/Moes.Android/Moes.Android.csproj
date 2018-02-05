@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Moes.Droid</RootNamespace>
     <AssemblyName>Moes.Android</AssemblyName>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
@@ -81,12 +81,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Moes\Moes.csproj">
-      <Project>{91250982-2698-4423-A6E5-51A01DCF86D6}</Project>
-      <Name>Moes</Name>
+    <ProjectReference Include="..\..\02-Shared\Moes.Core\Moes.Core.csproj">
+      <Project>{6087483C-6EC1-4137-A1AE-5AD16CB3F792}</Project>
+      <Name>Moes.Core</Name>
     </ProjectReference>
   </ItemGroup>
-
-
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
